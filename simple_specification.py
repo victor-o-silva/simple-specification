@@ -33,34 +33,3 @@ class Specification:
     @classmethod
     def any(cls, specs: Iterable[Specification]) -> Specification:
         return reduce(lambda a, b: a | b, specs)
-
-
-class Odd(Specification):
-    def is_satisfied_by(self, candidate: int) -> bool:
-        return bool(candidate % 2)
-
-
-class Even(Specification):
-    def is_satisfied_by(self, candidate: int) -> bool:
-        return not candidate % 2
-
-
-class DivisibleBy3(Specification):
-    def is_satisfied_by(self, candidate: int) -> bool:
-        return not candidate % 3
-
-
-class DivisibleBy5(Specification):
-    def is_satisfied_by(self, candidate: int) -> bool:
-        return not candidate % 5
-
-
-odd = Odd()
-even = Even()
-div3 = DivisibleBy3()
-div5 = DivisibleBy5()
-# specification = (div3 & div5) | even
-specification = Specification.any([(div3 & div5), even])
-# specification = Specification.all([odd, div3, div5])
-print(specification.is_satisfied_by(30))
-
