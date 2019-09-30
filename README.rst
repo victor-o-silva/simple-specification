@@ -2,6 +2,15 @@
 simple_specification
 ========================
 
+.. image:: https://travis-ci.org/victor-o-silva/simple-specification.svg?branch=master
+   :target: https://travis-ci.org/victor-o-silva/simple-specification
+   :alt: Build Status
+
+.. image:: https://coveralls.io/repos/victor-o-silva/simple-specification/badge.svg?branch=master
+   :target: https://coveralls.io/r/victor-o-silva/simple-specification?branch=master
+   :alt: Code Coverage
+
+
 A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_.
 
 Examples
