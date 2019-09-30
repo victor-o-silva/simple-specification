@@ -11,7 +11,7 @@ simple_specification
    :alt: Code Coverage
 
 
-A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_.
+A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_ for Python 3.7 or higher.
 
 Examples
 ##########
