@@ -18,9 +18,6 @@ A simple pythonic implementation of the **Specification Pattern** [1]_ for Pytho
 
     The central idea of Specification is to separate the statement of how to match a candidate, from the candidate object that it is matched against. As well as its usefulness in selection, it is also valuable for validation and for building to order.
 
-.. [1] `Specifications <https://www.martinfowler.com/apsupp/spec.pdf>`_, by Eric Evans and Martin Fowler.
-
-
 Installation
 ############
 
@@ -154,3 +151,5 @@ Composing a list of specifications with ``|`` - class method ``Specification.any
     False
     >>> any_spec.is_satisfied_by(5)
     False
+
+.. [1] `Specifications <https://www.martinfowler.com/apsupp/spec.pdf>`_, by Eric Evans and Martin Fowler.
