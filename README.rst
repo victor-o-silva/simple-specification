@@ -1,5 +1,5 @@
 ========================
-simple_specification
+simple-specification
 ========================
 
 .. image:: https://travis-ci.org/victor-o-silva/simple-specification.svg?branch=master
