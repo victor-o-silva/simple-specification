@@ -3,7 +3,7 @@ from setuptools import setup
 with open('README.rst', 'r') as readme_file:
     readme_txt = readme_file.read()
 
-VERSION = '0.2'
+VERSION = '0.3'
 
 setup(
     name='simple-specification',
