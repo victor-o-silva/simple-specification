@@ -16,6 +16,13 @@ simple_specification
 
 A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_ for Python 3.7 or higher.
 
+Installation
+############
+
+.. code-block:: sh
+
+    pip install simple-specification
+
 Examples
 ##########
 
