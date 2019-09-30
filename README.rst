@@ -10,6 +10,9 @@ simple_specification
    :target: https://coveralls.io/r/victor-o-silva/simple-specification?branch=master
    :alt: Code Coverage
 
+.. image:: https://badge.fury.io/py/simple-specification.svg
+   :target: https://badge.fury.io/py/simple-specification
+
 
 A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_ for Python 3.7 or higher.
 
