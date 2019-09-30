@@ -14,7 +14,12 @@ simple_specification
    :target: https://badge.fury.io/py/simple-specification
 
 
-A simple pythonic implementation of the `Specification Pattern <https://www.martinfowler.com/apsupp/spec.pdf>`_ for Python 3.7 or higher.
+A simple pythonic implementation of the **Specification Pattern** [1]_ for Python 3.7 or higher.
+
+    The central idea of Specification is to separate the statement of how to match a candidate, from the candidate object that it is matched against. As well as its usefulness in selection, it is also valuable for validation and for building to order.
+
+.. [1] `Specifications <https://www.martinfowler.com/apsupp/spec.pdf>`_, by Eric Evans and Martin Fowler.
+
 
 Installation
 ############
