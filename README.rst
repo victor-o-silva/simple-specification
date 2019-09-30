@@ -152,4 +152,9 @@ Composing a list of specifications with ``|`` - class method ``Specification.any
     >>> any_spec.is_satisfied_by(5)
     False
 
+****
+
+References
+############
+
 .. [1] `Specifications <https://www.martinfowler.com/apsupp/spec.pdf>`_, by Eric Evans and Martin Fowler.
