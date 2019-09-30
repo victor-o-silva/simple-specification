@@ -6,7 +6,7 @@ from typing import Any, Iterable
 
 class Specification:
     def is_satisfied_by(self, candidate: Any) -> bool:
-        raise NotImplementedError
+        raise NotImplementedError  # pragma: nocover
 
     def __and__(self, other: Specification) -> Specification:
         class And(Specification):
